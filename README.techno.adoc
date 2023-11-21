@@ -17,6 +17,16 @@ endif::[]
 
 == Discover
 
+Ansible is a suite of software tools that enables infrastructure as code.
+It is open-source and the suite includes the following:
+(i) software provisioning -- preparing machines with appropriate systems, data and software, and making them ready for network operation,
+(ii) configuration management -- tracking and controlling changes in packages; and
+(iii) application deployment functionality -- includes software release, installation & activation, de-activation, uninstallation, update, built-in update, version tracking
+
+Originally written by Michael DeHaan and acquired by Red Hat in 2015, Ansible is designed to configure both Unix-like systems and Microsoft Windows.
+Ansible is agentless, relying on temporary remote connections via SSH or Windows Remote Management which allows PowerShell execution.
+The Ansible control node runs on most Unix-like systems that are able to run Python, including Windows with Windows Subsystem for Linux installed.
+System configuration is defined in part by using its own declarative language -- expresses the logic of a computation without describing its control flow.
 
 == Learn
 
